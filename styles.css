@@ -2,3 +2,9 @@
 
 /* Lowercase Option B logo lockup. */
 .brand .logo-lockup{width:240px;height:auto;display:block}.footer .brand .logo-lockup{width:210px}.core{width:320px;height:125px;border-radius:12px;rotate:0deg;background:#080f20;overflow:hidden}.core img{width:300px;height:auto;rotate:0deg}@media(max-width:650px){.brand .logo-lockup{width:165px}.footer .brand .logo-lockup{width:180px}.core{width:255px;height:100px}.core img{width:245px}.footer{align-items:center}.footer small{margin-left:0}}
+
+/* Remove the navy raster backdrop while preserving solid white and cyan. */
+.logo-lockup,.core img{filter:url(#logo-transparent)}
+.hero-art .core{width:300px;height:150px;border:1px solid #4c81b9;border-radius:24px;background:linear-gradient(145deg,#203a5f,#0a172e);overflow:visible;rotate:0deg;box-shadow:0 0 65px #1573c62b}
+.hero-art .core img{width:285px;height:auto;display:block;rotate:0deg}
+@media(max-width:650px){.hero-art .core{width:245px;height:130px}.hero-art .core img{width:235px}}
