@@ -8,3 +8,8 @@
 .hero-art .core{width:300px;height:150px;border:1px solid #4c81b9;border-radius:24px;background:linear-gradient(145deg,#203a5f,#0a172e);overflow:visible;rotate:0deg;box-shadow:0 0 65px #1573c62b}
 .hero-art .core img{width:285px;height:auto;display:block;rotate:0deg}
 @media(max-width:650px){.hero-art .core{width:245px;height:130px}.hero-art .core img{width:235px}}
+
+/* Give the header logo more presence without changing the hero or footer. */
+.header .brand .logo-lockup{width:300px}
+@media(max-width:650px){.header .brand .logo-lockup{width:190px}}
+@media(max-width:360px){.header .brand .logo-lockup{width:170px}nav{gap:10px}}
